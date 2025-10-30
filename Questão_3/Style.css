@@ -1,0 +1,48 @@
+.button-mudarcor{
+    background-color: lightblue;
+}
+/* Cor Padrão Inicial (requisito b) */
+body {
+    background-color: #f0f0f0; /* Um cinza claro como cor padrão */
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease; /* Adiciona transição suave para a mudança de cor */
+    
+    /* Centralização do Conteúdo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.content-wrapper {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente para o texto */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#corAtual {
+    font-weight: bold;
+}
